@@ -1,1 +1,1 @@
-This is just a test to see if I can use this method to describe my project's modifications.
+This is the repo for group 2's project
