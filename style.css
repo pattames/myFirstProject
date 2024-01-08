@@ -304,3 +304,47 @@ font-family:sans-serif;
   background-color: transparent;
   opacity: 0.6;
 }
+=======
+#contact_client-section {
+  height: 20%;
+  display: flex;
+  justify-content:space-evenly;
+}
+.client-left-side{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  margin: 7px;
+}
+.client-left-side>* {
+  margin: 5px;
+}
+.client-right-side>* {
+  margin: 10px;
+}
+
+.input {
+  height: 10%;
+}
+#client-button {
+  width: 25%;
+  height:10%;
+  border: 1px solid turquoise;
+  color: turquoise;
+  background-color: white;
+}
+.client-right-side{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+}
+.client-grids{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 3px;
+}
+.client-grid-item {
+width: 70%;
+margin: 10px;
+}
