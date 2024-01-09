@@ -359,9 +359,10 @@ img.social-icons {
   opacity: 0.6;
 }
 #contact_client-section {
-  height: 20%;
+  height: auto;
   display: flex;
   justify-content:space-evenly;
+  margin: 30px;
 }
 .client-left-side {
   font-size: 1.6rem;
