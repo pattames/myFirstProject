@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-size: 62.5%;
 }
+
 header {
   background-image: url(./images/bgk-header.png);
   background-size: cover;
@@ -36,6 +37,7 @@ header {
       }
     }
   }
+  
   #hero-section {
     height: 45rem;
     text-align: center;
@@ -111,7 +113,7 @@ header {
 }
 
 #team-section {
-  background-image: url(/images/bgk-header.png);
+  background-image: url(./images/bgk-header.png);
   height: 300px;
   display: flex;
   flex-direction: column;
@@ -204,7 +206,7 @@ button.we-are-hiring {
 
 footer {
   height: 200px;
-  background-image: url(/images/bgk-footer.png);
+  background-image: url(./images/bgk-footer.png);
   background-position: center;
   display: flex;
   justify-content: center;
