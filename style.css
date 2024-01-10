@@ -204,6 +204,31 @@ button.we-are-hiring {
   border-radius: 2px;
 }
 
+#expertise-section {
+  text-align: center;
+  font-size: 2rem;
+  height: 60rem;
+  h2 {
+    font-size: 2rem;
+  }
+  .gridContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 70%;
+    margin: 0 auto;
+    background-color: #efefef;
+    gap: 0.1rem;
+    .gridItem {
+      font-size: 2.2rem;
+      padding: 2rem;
+      background-color: white;
+      h3 {
+        margin: 0;
+      }
+    }
+  }
+}
+
 footer {
   height: 200px;
   background-image: url(./images/bgk-footer.png);
@@ -219,18 +244,17 @@ footer {
   align-items: center;
   height: 350px;
   background-image: url(images/bgk-middle.png);
-  background-size:cover;
+  background-size: cover;
   background-repeat: no-repeat;
   align-items: space-between;
 }
-.play{
+.play {
   width: fit-content;
 }
 .watch {
   margin-top: 20px;
   color: white;
   font-size: 1.6rem;
-
 }
 .column-container {
   display: flex;
@@ -363,7 +387,7 @@ img.social-icons {
 #contact_client-section {
   height: auto;
   display: flex;
-  justify-content:space-evenly;
+  justify-content: space-evenly;
   margin: 30px;
 }
 .client-left-side {
