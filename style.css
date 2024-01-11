@@ -98,7 +98,7 @@ header {
 .story-container {
   display: flex;
   flex-direction: column;
-
+  color: #9795aa;
   margin-left: 30px;
 }
 
@@ -107,6 +107,7 @@ header {
   font-size: 1.6rem;
   font-family: "Playfair Display", serif;
   font-weight: bold;
+  color: black;
 }
 
 .learnmore-story-button {
@@ -120,7 +121,7 @@ header {
   height: 35px;
   width: 120px;
   font-weight: 600;
-  margin-top: 10px;
+  margin-top: 27px;
 }
 
 .bluepyramide {
@@ -131,7 +132,9 @@ header {
 
 #team-section {
   background-image: url(./images/bgk-header.png);
-  height: 300px;
+  background-size: cover;
+  padding-top: 1.7rem;
+  height: 350px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -152,8 +155,13 @@ div.orizontal-line {
   align-items: center;
   justify-content: center;
   color: white;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   margin-top: 20px;
+  h2 {
+    font-size: 1.5rem;
+    font-family: "Prata", serif;
+    font-weight: 800;
+  }
 }
 
 .card-container {
@@ -214,11 +222,12 @@ div.orizontal-line {
 button.we-are-hiring {
   color: #68dacd;
   background: none;
-  width: 60px;
-  height: 20px;
+  width: 90px;
   margin-top: 10px;
   border: solid 1px #68dacd;
   border-radius: 2px;
+  padding: 0.6rem;
+  font-size: 0.8rem;
 }
 
 #expertise-section {
@@ -226,8 +235,8 @@ button.we-are-hiring {
   font-size: 2rem;
   height: 55rem;
   h2 {
-    font-size: 1.5rem;
     margin-top: 4.2rem;
+    font-size: 1.5rem;
     font-family: "Prata", serif;
     font-weight: 800;
   }
@@ -275,9 +284,10 @@ button.we-are-hiring {
 }
 
 footer {
-  height: 200px;
+  height: 300px;
   background-image: url(./images/bgk-footer.png);
   background-position: center;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -306,16 +316,16 @@ footer {
   justify-content: center;
   margin-top: 20px;
   gap: 10px;
-  height: 160px;
-  width: 450px;
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 3rem;
 }
 
 .first-footer-column {
   display: flex;
   flex-direction: column;
-  height: 150px;
-  width: 150px;
-  max-width: 150px;
+  width: 17%;
   color: white;
   gap: 5px;
 }
@@ -328,9 +338,10 @@ footer {
 .nav-footer {
   display: flex;
   list-style-type: none;
-  gap: 5px;
+  gap: 8px;
   margin-top: 30px;
-  justify-content: space-around;
+  justify-content: space-between;
+  font-size: 1.7rem;
 }
 
 a:link {
@@ -367,11 +378,11 @@ h3 {
 
 div.social-bar {
   display: flex;
-  gap: 3px;
+  gap: 7px;
 }
 
 img.social-icons {
-  height: 20px;
+  width: 2.5rem;
   margin-top: 10px;
 }
 
@@ -398,8 +409,8 @@ img.social-icons {
 
 .airplane-box {
   background-color: white;
-  width: 30px;
-  height: 20px;
+  width: 35px;
+  height: 25px;
   display: flex;
   opacity: 0.5;
   justify-content: center;
@@ -432,15 +443,21 @@ img.social-icons {
 #contact_client-section {
   height: auto;
   display: flex;
-  justify-content: space-evenly;
-  margin: 30px;
+  justify-content: center;
+  margin: 30px 30px 30px 120px;
 }
 .client-left-side {
   font-size: 1.6rem;
-  width: 40%;
+  width: 26%;
   display: flex;
   flex-direction: column;
   margin: 7px;
+  h2 {
+    font-size: 1.5rem;
+    font-family: "Prata", serif;
+    font-weight: 800;
+    margin-bottom: 1rem;
+  }
 }
 .client-left-side > * {
   margin: 5px;
@@ -450,6 +467,14 @@ img.social-icons {
 }
 .input {
   height: 10%;
+  border: solid 1px #e6e6e6;
+  border-radius: 2px;
+  padding: 1rem;
+}
+#message {
+  border: solid 1px #e6e6e6;
+  border-radius: 2px;
+  padding: 1rem;
 }
 #client-button {
   width: 25%;
@@ -464,9 +489,15 @@ img.social-icons {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  h2 {
+    margin-left: 10.5rem;
+    font-size: 1.5rem;
+    font-family: "Prata", serif;
+    font-weight: 800;
+  }
 }
 .client-grids {
-  margin: 0;
+  margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
   width: 65%;
