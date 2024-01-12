@@ -405,6 +405,10 @@ img.social-icons {
   display: flex;
   gap: 7px;
   height: 20px;
+  font-size: 1.5rem;
+  input {
+    padding: 1rem;
+  }
 }
 
 .airplane-box {
@@ -506,7 +510,6 @@ img.social-icons {
   width: 60%;
   margin: 8px;
 }
-
 
 #email {
   height: 25px;
